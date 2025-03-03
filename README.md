@@ -10,12 +10,12 @@ Proyek ini dibuat sebagai bagian dari program Project-Based Internship di Kimia 
 🔹 🎥 Video Presentasi – Video penjelasan proyek yang dikumpulkan dalam final submission.
 </pre>
 ## 📌 Link Penting
-<pre>
+
 🔗 BigQuery Query: [Query Summary](https://github.com/pingpurwanto/Rakamin_KF_Analytics/blob/main/Query%20Summary.sql)
 🔗 Looker Studio: [Dashboard](https://lookerstudio.google.com/s/mDPAPyz7hpo)
 🔗 Final Report: [PPT](https://docs.google.com/presentation/d/1esCvv2dCr-VBwt0gLrQ1oxlf2RASBZex/edit?usp=sharing&ouid=103968357678981377742&rtpof=true&sd=true)
 🔗 Video Presentasi: [Video](https://drive.google.com/drive/folders/1VEJbuDSwJ0cFNvsyc0iz9siAWL7WKNEZ?usp=drive_link)
-</pre>
+
 
 ## 🗂️ Dataset yang Digunakan
 
