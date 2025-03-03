@@ -11,10 +11,10 @@ Proyek ini dibuat sebagai bagian dari program Project-Based Internship di Kimia 
 </pre>
 ## 📌 Link Penting
 <pre>
-🔗 BigQuery Dataset: [--ISI DISINI--]
-🔗 Looker Studio Dashboard: https://lookerstudio.google.com/s/mDPAPyz7hpo
-🔗 Final Report (PPT): [--ISI DISINI--]
-🔗 Video Presentasi: [--ISI DISINI--]
+🔗 BigQuery Query: [Query Summary](https://github.com/pingpurwanto/Rakamin_KF_Analytics/blob/main/Query%20Summary.sql)
+🔗 Looker Studio: [Dashboard](https://lookerstudio.google.com/s/mDPAPyz7hpo)
+🔗 Final Report: [PPT](https://docs.google.com/presentation/d/1esCvv2dCr-VBwt0gLrQ1oxlf2RASBZex/edit?usp=sharing&ouid=103968357678981377742&rtpof=true&sd=true)
+🔗 Video Presentasi: [Video](https://drive.google.com/drive/folders/1VEJbuDSwJ0cFNvsyc0iz9siAWL7WKNEZ?usp=drive_link)
 </pre>
 
 ## 🗂️ Dataset yang Digunakan
@@ -44,7 +44,7 @@ SQL digunakan untuk menggabungkan data menjadi tabel analisis dengan kolom utama
 ✅ nett_sales (harga setelah diskon) | ✅ nett_profit (keuntungan)
 ✅ persentase_gross_laba | ✅ rating_transaksi
 </pre>
-📌 Query utama untuk membuat tabel ini dapat dilihat di folder /SQL Queries.
+📌 Query utama untuk membuat tabel ini dapat dilihat di file [Query Summary](https://github.com/pingpurwanto/Rakamin_KF_Analytics/blob/main/Query%20Summary.sql).
 
 ### 3️⃣ Membuat Dashboard di Looker Studio
 
@@ -76,10 +76,35 @@ SQL digunakan untuk menggabungkan data menjadi tabel analisis dengan kolom utama
 
 📌 (Ringkas insight utama yang ditemukan dalam analisis, misalnya tren pendapatan, cabang terbaik, produk terlaris, dll.)
 
-    --ISI DISINI--
-    --ISI DISINI--
+###📌 1. Diskon Berlebih pada Produk Murah Menyebabkan Kerugian
+<pre>
+✅ Temuan:
+Produk dengan harga di bawah Rp100.000 sering diberikan diskon lebih besar dibanding margin labanya.
+Hal ini menyebabkan beberapa transaksi justru merugikan perusahaan.
+Solusi:
+Meninjau ulang kebijakan diskon untuk produk murah.
+Mengoptimalkan strategi harga agar tetap kompetitif tanpa mengurangi profitabilitas.
+</pre>
+###📌 2. Produk dengan Harga Tinggi Menjadi Penopang Keuntungan
+<pre>
+✅ Temuan:
+Produk dengan harga di atas Rp100.000 memiliki margin keuntungan yang lebih besar.
+Keuntungan dari produk ini mampu menutupi kerugian dari produk murah.
+Solusi:
+Meningkatkan promosi produk dengan harga tinggi.
+Menganalisis apakah ada peluang untuk meningkatkan stok produk ini di cabang yang memiliki permintaan tinggi.
+</pre>
+###📌 3. Ketimpangan Performa Antar Cabang
+<pre>
+✅ Temuan:
+Beberapa cabang memiliki transaksi tinggi, tetapi profit rendah.
+Beberapa cabang dengan rating tinggi memiliki rating transaksi yang rendah, menunjukkan potensi masalah dalam pelayanan pelanggan atau efisiensi operasional.
+Solusi:
+Menganalisis cabang dengan transaksi tinggi tetapi profit rendah untuk mengidentifikasi penyebabnya (misalnya biaya operasional yang tinggi atau margin keuntungan rendah).
+Mengoptimalkan strategi di cabang dengan rating transaksi rendah, misalnya melalui pelatihan staf atau peningkatan sistem layanan pelanggan.
+</pre>
 
 ## 📩 Kontak & Kontribusi
 
-Jika ada pertanyaan atau saran, silakan hubungi saya di pingpurwanto@gmail.com / https://www.linkedin.com/in/opingkanp/.
+Jika ada pertanyaan atau saran, silakan hubungi saya melalui pingpurwanto@gmail.com / [linked-in](https://www.linkedin.com/in/opingkanp/.)
 Terima kasih telah mengunjungi repository ini! 😊🎉
