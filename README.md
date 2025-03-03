@@ -1,13 +1,85 @@
-# Rakamin_KF_Analytics
-Tugas final Virtual Internship Program Rakamin Academy dan Kimia Farma
+# 📊 Kimia Farma - Big Data Analyst Project
 
-Dalam tugas ini, saya sebagai data analyst diminta untuk membuat analisis kinerja bisnis Kimia Farma pada tahun 2020-2023.
+Proyek ini dibuat sebagai bagian dari program Project-Based Internship di Kimia Farma bekerja sama dengan Rakamin Academy, yang berfokus pada analisis kinerja bisnis dari tahun 2020 hingga 2023 menggunakan BigQuery & Google Looker Studio.
 
-Dari 4 buah tabel yang diberikan, 
-- kf_final_transaction.csv,
-- kf_inventory.csv,
-- kf_kantor_cabang.csv,
-- kf_product.csv
-analis diminta untuk membuat tabel analisa gabungan untuk diolah dan diproses.
+## 📁 Isi Repository
+<pre>
+🔹 📂 SQL Queries – Berisi query untuk mengolah dan menganalisis data di BigQuery.
+🔹 📊 Dashboard – Link ke dashboard Google Looker Studio yang menampilkan insight dari analisis data.
+🔹 📜 Final Report (PPT) – Dokumen laporan akhir yang menjelaskan hasil analisis.
+🔹 🎥 Video Presentasi – Video penjelasan proyek yang dikumpulkan dalam final submission.
+</pre>
+## 📌 Link Penting
+<pre>
+🔗 BigQuery Dataset: [--ISI DISINI--]
+🔗 Looker Studio Dashboard: [--ISI DISINI--]
+🔗 Final Report (PPT): [--ISI DISINI--]
+🔗 Video Presentasi: [--ISI DISINI--]
+</pre>
 
-Selanjutnya, data tersebut akan dieksplorasi, kemudian ditampilkan analisanya pada dashboard via platform looker studio.
+## 🗂️ Dataset yang Digunakan
+
+Dataset ini terdiri dari 4 tabel utama yang telah diimpor ke BigQuery:
+
+    kf_final_transaction.csv 📄
+        Berisi detail transaksi, termasuk ID transaksi, tanggal, harga obat, diskon, dan rating transaksi.
+    kf_inventory.csv 📦
+        Data stok obat di setiap cabang Kimia Farma.
+    kf_kantor_cabang.csv 🏢
+        Informasi lokasi cabang, kota, provinsi, dan rating cabang.
+    kf_product.csv 💊
+        Informasi produk obat, termasuk harga dan kategori produk.
+
+## 🔍 Proses Analisis
+
+### 1️⃣ Mengimpor Dataset ke BigQuery
+📥 Dataset diunggah ke Google BigQuery, dan dibuat tabel analisis utama (kf_analysis) berdasarkan hasil agregasi dari keempat dataset di atas.
+
+### 2️⃣ Membuat Tabel Analisis Utama (kf_analysis)
+<pre>
+SQL digunakan untuk menggabungkan data menjadi tabel analisis dengan kolom utama:
+✅ transaction_id | ✅ date | ✅ branch_id | ✅ branch_name
+✅ kota | ✅ provinsi | ✅ rating_cabang | ✅ customer_name
+✅ product_id | ✅ product_name | ✅ actual_price | ✅ discount_percentage
+✅ nett_sales (harga setelah diskon) | ✅ nett_profit (keuntungan)
+✅ persentase_gross_laba | ✅ rating_transaksi
+</pre>
+📌 Query utama untuk membuat tabel ini dapat dilihat di folder /SQL Queries.
+
+### 3️⃣ Membuat Dashboard di Looker Studio
+
+📊 Dashboard interaktif dibuat di Google Looker Studio untuk menampilkan insight seperti:
+
+    Perbandingan pendapatan dari tahun ke tahun 📈
+    Top 10 cabang dengan transaksi & nett sales tertinggi 🏪
+    Top 5 cabang dengan rating tertinggi tetapi rating transaksi terendah ⭐📉
+    Geo Map untuk total profit masing-masing provinsi 🗺️
+
+## 🛠️ Teknologi yang Digunakan
+<pre>
+💡 Google BigQuery – Untuk menyimpan, mengolah, dan menganalisis data.
+📊 Google Looker Studio – Untuk membuat visualisasi dashboard interaktif.
+📝 SQL (BigQuery Standard SQL) – Untuk melakukan agregasi dan analisis data.
+</pre>
+## 🚀 Cara Menggunakan
+<pre>
+1️⃣ Clone repository ini ke lokal Anda
+  
+    git clone --ISI DISINI--
+  
+2️⃣ Akses SQL Queries untuk menjalankan analisis di BigQuery
+3️⃣ Buka link Looker Studio untuk melihat hasil dashboard
+4️⃣ Lihat final report untuk penjelasan lebih detail
+</pre>
+
+## 📢 Hasil & Insight Utama
+
+📌 (Ringkas insight utama yang ditemukan dalam analisis, misalnya tren pendapatan, cabang terbaik, produk terlaris, dll.)
+
+    --ISI DISINI--
+    --ISI DISINI--
+
+## 📩 Kontak & Kontribusi
+
+Jika ada pertanyaan atau saran, silakan hubungi saya di pingpurwanto@gmail.com / https://www.linkedin.com/in/opingkanp/.
+Terima kasih telah mengunjungi repository ini! 😊🎉
