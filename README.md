@@ -12,7 +12,7 @@ Proyek ini dibuat sebagai bagian dari program Project-Based Internship di Kimia 
 ## 📌 Link Penting
 <pre>
 🔗 BigQuery Dataset: [--ISI DISINI--]
-🔗 Looker Studio Dashboard: [--ISI DISINI--]
+🔗 Looker Studio Dashboard: https://lookerstudio.google.com/s/mDPAPyz7hpo
 🔗 Final Report (PPT): [--ISI DISINI--]
 🔗 Video Presentasi: [--ISI DISINI--]
 </pre>
